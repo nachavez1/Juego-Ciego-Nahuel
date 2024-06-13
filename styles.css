@@ -9,6 +9,12 @@ iframe{
     border: none;
 }
 
+@media (max-width: 320px) {
+    iframe{
+        height: 40vh;
+    }
+  }
+
 main{
     width: 100%;
     padding: 20px;

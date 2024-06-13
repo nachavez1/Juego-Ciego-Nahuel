@@ -29,6 +29,36 @@
     transition: transform .5s;
     box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   }
+
+  @media (max-width: 720px) {
+    .memory-card {
+        height: 33%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .memory-card {
+        height: 25%;
+    }
+    .front-face,
+    .back-face {
+      padding: 15px !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .memory-game {
+      height: 320px;
+    }
+    .memory-card {
+      height: 15%;
+      margin: 2px;
+    }
+    .front-face,
+    .back-face {
+      padding: 10px !important;
+    }
+  }
   
   .memory-card:active {
     transform: scale(0.97);
